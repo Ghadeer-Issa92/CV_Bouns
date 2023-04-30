@@ -11,12 +11,12 @@
 <h2>Step 3: Training Mask RCNN</h2>
 <p>We used detectron2 to train the Mask RCNN model. The code for training can be found in this Colab notebook: 
 <a href="https://colab.research.google.com/drive/1-iKrwiKwUQYtPXPWe1Xo2s1-hyRI4nPU?usp=sharing" target="_new">Colab Notebook for Mask RCNN</a>.</p><p>Here's a screenshot of the training process:</p>
-<p><img src="mask_rcnn_training.png" alt="Mask RCNN Training"></p>
+<p><img src="imgs/train_detectron.png" alt="Mask RCNN Training"></p>
 <h2>Step 4: Training Yolov8</h2>
 <p>We trained Yolov8, the smallest size for segmentation. The code for training can be found in this Colab notebook: 
 <a href="https://colab.research.google.com/drive/1iJX_n7GUFjU0J_P15wVpz2d37zZhwT7A?usp=sharing" target="_new">Colab Notebook for Yolov8</a>.</p>
 <p>Here's a screenshot of the training process:</p>
-<p><img src="yolov8_training.png" alt="Yolov8 Training"></p>
+<p><img src="imgs/train_yolo.png" alt="Yolov8 Training"></p>
 <h2>Step 5: Evaluating the Models</h2>
 <p>Finally, we evaluated both models based on mAP, speed, and size. Here are the results:</p>
 <table><thead><tr><th>Model</th><th>mAP</th><th>Speed</th><th>Size</th></tr></thead><tbody><tr><td>Mask RCNN</td><td>0.8</td><td>20 ms</td><td>200 MB</td></tr><tr><td>Yolov8</td><td>0.7</td><td>10 ms</td><td>50 MB</td></tr></tbody></table>
