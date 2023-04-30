@@ -23,6 +23,17 @@
      <tbody><tr><td>Mask RCNN</td><td>0.646</td><td>20 ms</td><td>200 MB</td><td>15:30 M</td></tr>
          <tr><td>Yolov8</td><td>0.777</td><td>10 ms</td><td>54.8 MB</td><td>0.349 H</td></tr></tbody></table>
 
+<h2>Step 6: Testing the Models</h2>
+<h3>Detectron2</h3>
+<p><img src="imgs/original.jpg" alt="Image 1">
+<img src="imgs/original (1).jpg" alt="Image 2"></p>
+
+
+<h3>YOLOv8</h3>
+<p><img src="imgs/original.jpg" alt="Image 1">
+<img src="imgs/original (1).jpg" alt="Image 2"></p>
+
+
 <h2>Conclusion</h2>
 <p>Both Mask RCNN and Yolov8 performed well in object segmentation. However, Mask RCNN had a slightly higher mAP while Yolov8 had a faster speed and smaller size. It depends on the specific use case as to which model would be more suitable.</p>
 <h2>References</h2>
