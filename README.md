@@ -19,9 +19,9 @@
 <p><img src="imgs/train_yolo.png" alt="Yolov8 Training"></p>
 <h2>Step 5: Evaluating the Models</h2>
 <p>Finally, we evaluated both models based on mAP, speed, and size. Here are the results:</p>
-<table><thead><tr><th>Model</th><th>mAP</th><th>Speed</th><th>Size</th><th>train T</th></tr></thead>
-     <tbody><tr><td>Mask RCNN</td><td>0.8</td><td>20 ms</td><td>200 MB</td><td>15:30</td></tr>
-         <tr><td>Yolov8</td><td>0.7</td><td>10 ms</td><td>50 MB</td><td>0.349 H</td></tr></tbody></table>
+<table><thead><tr><th>Model</th><th>mAP</th><th>Speed</th><th>Size</th><th>train T</th><th>Itrs</th></tr></thead>
+     <tbody><tr><td>Mask RCNN</td><td>0.8</td><td>20 ms</td><td>200 MB</td><td>15:30 M</td><td>2000</td></tr>
+         <tr><td>Yolov8</td><td>0.7</td><td>10 ms</td><td>50 MB</td><td>0.349 H</td><td>100</td></tr></tbody></table>
 
 <h2>Conclusion</h2>
 <p>Both Mask RCNN and Yolov8 performed well in object segmentation. However, Mask RCNN had a slightly higher mAP while Yolov8 had a faster speed and smaller size. It depends on the specific use case as to which model would be more suitable.</p>
