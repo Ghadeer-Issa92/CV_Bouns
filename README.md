@@ -30,8 +30,8 @@
 
 
 <h3>YOLOv8</h3>
-<p><img src="imgs/original.jpg" alt="Image 1">
-<img src="imgs/original (1).jpg" alt="Image 2"></p>
+<p><img src="imgs/download1.jpeg" alt="Image 1">
+<img src="imgs/download 1(1).jpg" alt="Image 2"></p>
 
 
 <h2>Conclusion</h2>
