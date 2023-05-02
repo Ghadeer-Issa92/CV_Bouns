@@ -20,8 +20,8 @@
 <h2>Step 5: Evaluating the Models</h2>
 <p>Finally, we evaluated both models based on mAP, speed, and size. Here are the results:</p>
 <table><thead><tr><th>Model</th><th>mAP</th><th>Speed</th><th>Size</th><th>train T</th></tr></thead>
-     <tbody><tr><td>Mask RCNN</td><td>0.646</td><td>20 ms</td><td>479.92 MB</td><td>15:30 M</td></tr>
-         <tr><td>Yolov8</td><td>0.777</td><td>40.1ms</td><td>54.8 MB</td><td>0.349 H</td></tr></tbody></table>
+     <tbody><tr><td>Mask RCNN</td><td>0.646</td><td>20 ms</td><td> MB</td><td>15:30 M</td></tr>
+         <tr><td>Yolov8</td><td>0.777</td><td>40.1ms</td><td>27241964</td><td>0.349 H</td></tr></tbody></table>
 
 <h2>Step 6: Testing the Models</h2>
 <h3>Detectron2</h3>
